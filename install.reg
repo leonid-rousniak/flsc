@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Setup context menu item for clicking on background:
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Clean stems\command]
+@="C:\\Users\\Leo\\Programming\\flsc\\x64\\Release\\flsc.exe \"%V\""
+
+; Specify an icon for the item:   
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Clean stems]
+"icon"="C:\\Users\\Leo\\Programming\\flsc\\flicon.ico"
